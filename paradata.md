@@ -12,3 +12,13 @@ Opened icon in Irfanview
 Saved as a new file without _p in the name.
 Specified Transparent and selected the background color on save.
 
+Designing the map
+QGIS
+hopewell_polys
+crs:4326
+geometry type: Polygon
+fields
+id
+type string 40
+name string 80
+desc string 254
