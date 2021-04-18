@@ -1,0 +1,29 @@
+<html>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>mermaid.initialize({startOnLoad:true});</script>
+
+    Here is one mermaid diagram:
+    <div class="mermaid">
+## Indentify and Download LiDAR LAS Tiles
+
+graph TD;
+    LASD1["State Game Lands (SGLs) shapefile"]-->LASD2["Add a 1 km buffer to edges of SGLs."];    
+    LASD2-->LASD3["Download PASDA Tile Indexes for North and South PA."];
+    LASD3-->LASD4["Combine North and South PASDA into a single file using the #quot;Merge Vector Layers#quot; tool in QGIS."]
+    LASD4-->LASD5["Add field for SGL number to combined tile index file using #quot;Join Attributes by Location#quot; tool in QGIS."]
+    LASD5-->LASD6["3,925 unique tiles out of the 13,797 total tiles were now associated with an SGL number."]
+    LASD6-->LASD7["Export list of 3,925 associated with an SGL to a spreadsheet."]
+    LASD7-->LASD8["For each tile, download the LAS data file using wget."]
+    LASD8-->LASD9["Move each tile into a separate folder for each SGL number."]
+    </div>
+
+    And here is another:
+    <div class="mermaid">
+      graph TD
+      A[Client] -->|tcp_123| B(Load Balancer)
+      B -->|tcp_456| C[Server1]
+      B -->|tcp_456| D[Server2]
+    </div>
+  </body>
+</html>
