@@ -1,0 +1,21 @@
+<html>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>mermaid.initialize({startOnLoad:true});</script>
+
+    Here is one mermaid diagram:
+    <div class="mermaid">
+graph TD;
+    LASP1["Each SGL has a LiDAR Data file with a CRS of PA North (PAN) or PA South (PAS)<br>(Some mid-state SGL's have both PAN and PAS)."]-->LASP2["Process each LiDAR data file with LASTools<br>using using Moritz #quot;Moe#quot; Schiesser#apos;s program."];    
+    LASP2-->LASP3["Moe's program instructs LAStools to derive these file types:<br>Hillshade<br>Slope<br>DEM"];
+    </div>
+
+    And here is another:
+    <div class="mermaid">
+      graph TD
+      A[Client] -->|tcp_123| B(Load Balancer)
+      B -->|tcp_456| C[Server1]
+      B -->|tcp_456| D[Server2]
+    </div>
+  </body>
+</html>
