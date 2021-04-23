@@ -1,6 +1,16 @@
 # sensation
 This is work for Heritage Jam 2021 and explores mapping work I have been doing as part of the CCAD-CRANE project.
 
+## Requirements
+This project will create an html page with a Leaflet map that is designed to run on a smartphone and plot the user's location.
+To create the map and test it:
+* A computer to run a Python Jupyter Notebook (such as Google Colab)
+
+To run the map on a phone
+* A web server with TLS to serve up the map webpage using https.
+* A smart phone
+
+
 ## setup / installation
 In Google Drive - create a directory example: "github"
 
