@@ -12,6 +12,7 @@ To run the map on a phone
 
 
 ## setup / installation
+This can be run from a notebook in Google Colab:  https://github.com/jeffblackadar/sensation/blob/main/installer.ipynb
 In Google Drive - create a directory example: "github"
 
 Open a temporary notebook in Google Colab
