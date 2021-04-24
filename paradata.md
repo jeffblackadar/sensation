@@ -15,7 +15,7 @@
 ## Designing the map
 * Used QGIS
 * Created a new project
-### Added map as rater layer 
+### Added map as raster layer 
 * Added the map as a raster layer
 ### Created a new Vector layer for Points
 * crs:4326
@@ -39,21 +39,14 @@ Added points for buildings and charcoal hearths
 Added polygons for landscapes (forest, field, creek, road, path)
 
 ## Sounds
-I used freesound.org and edited the sounds in Audacity
-https://freesound.org/
+I used freesound.org 
+https://freesound.org/ . Sounds are licenced under Creative Commons.
+I used Audacity https://www.audacityteam.org/ to edit the sounds.
 
-Furnace
-https://freesound.org/people/jokallset/sounds/395883/
 
-Road (horse)
-https://freesound.org/people/lefthandwinnie/sounds/403150/
-
-Path (footsteps, mud)
-https://freesound.org/people/mikaelfernstrom/sounds/68689/
-
-RCH (Charcoal raked by a spade)
-https://freesound.org/people/Hotlavaman/sounds/108676/
-
-Creek
-https://freesound.org/people/Zaku18/sounds/255246/
+* Furnace https://freesound.org/people/jokallset/sounds/395883/
+* Road (horse) https://freesound.org/people/lefthandwinnie/sounds/403150/
+* Path (footsteps, mud) https://freesound.org/people/mikaelfernstrom/sounds/68689/
+* RCH (Charcoal raked by a spade) https://freesound.org/people/Hotlavaman/sounds/108676/
+* Creek https://freesound.org/people/Zaku18/sounds/255246/
 
