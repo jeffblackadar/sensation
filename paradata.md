@@ -16,26 +16,30 @@
 * Used QGIS
 * Created a new project
 ### Added map as raster layer 
-* Added the map as a raster layer
+* Added the georeferenced map tif as a raster layer
+* Added the shapefile of charcoal hearth points as a vector layer.
 ### Created a new Vector layer for Points
-* crs:4326
-* geometry type: Point
-* added fields
-* id
-* type string 40
-* name string 80
-* desc string 254
+* file name: hopewell_selected_elements
+* geometry: Points
+* crs:EPSG:4326
+
+Added fields
+* type (string length 40)
+* name (string length 80)
+* desc (string length 254)
+
 Added points for buildings and charcoal hearths
 
 ### Created a new Vector layer for Polygons
-* name: hopewell_polys
-* crs:4326
-* geometry type: Polygon
-* added fields
-* id
-* type string 40
-* name string 80
-* desc string 254
+* file name: hopewell_selected_elements_polys
+* geometry: Polygons
+* crs:EPSG:4326
+
+Added fields
+* type (string length 40)
+* name (string length 80)
+* desc (string length 254)
+ 
 Added polygons for landscapes (forest, field, creek, road, path)
 
 ## Sounds
