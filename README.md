@@ -18,7 +18,8 @@ These instructions use Google Drive and Google Colaboratory
 2. Open this notebook Google Colaboratory and follow the steps:  https://github.com/jeffblackadar/sensation/blob/main/installer.ipynb
 3. Go back into Google Drive, select /github/sensation/sensory_map_generator.ipynb and Open in Google Colab
 
-
+## Paradata
+Process Flow https://jeffblackadar.github.io/sensation/map_process_flow.html
 
 
 Credit to https://medium.com/@ashwindesilva/how-to-use-google-colaboratory-to-clone-a-github-repository-e07cf8d3d22b
