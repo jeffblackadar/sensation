@@ -1,0 +1,102 @@
+      <html>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>mermaid.initialize({startOnLoad:true});</script>
+
+    <h1>Sensation Map Generator</h1>
+    <h2>Process and Logic Flows</h2>
+    <h3>Transcribe Map into Shapefiles</h3>
+    <div class="mermaid">
+      graph TD
+      TM1[Use a georeferenced tif of a map.] --> TM2[In QGIS, create a new project. Add the map tif as a raster layer.]
+      TM2 --> TM3[Add shapefile of charcoal hearths as a vector layer.]
+      TM3 --> TM4["To store points on the map such as<br>buildings and charcoal hearths,<br>create a new shapefile Layer.
+      <br>file name: hopewell_selected_elements
+      <br>geometry: Points
+      <br>crs:EPSG:4326
+      <br>Added fields
+      <br>type (string length 40)
+      <br>name (string length 80)
+      <br>desc (string length 254)
+      "]
+      TM4 --> TM5[Added points for buildings and charcoal hearths.]
+      TM5 --> TM6["To store polygons to represent the landscape such as
+      <br>forest, field, creek, road, path,<br>create a new shapefile Layer.
+      <br>file name: hopewell_selected_elements_polys
+      <br>geometry: Polygons
+      <br>crs:EPSG:4326
+      <br>Added fields
+      <br>type (string length 40)
+      <br>name (string length 80)
+      <br>desc (string length 254)
+      "]
+      TM6 --> TM7[Added polygons for landscape.]
+      TM7 --> TM8["Copied shapefiles to Google Drive. (Later, via Github)."]
+    </div>
+    QGIS map transcription:<br>
+    <img src="qgis_map.png">
+    <h3>Transfer map coordinates to user&apos;s location and generate new map.</h3>
+    <div class="mermaid">
+      graph TD
+      TMCU1["In Notebook sensory_map_generator.ipynb<br>Section: 1. Package installation Mount Google Drive"] --> TMCU2["Mount Google Drive<br>Install packages"]
+      TMCU2-->TMCU3["Section: 2. Relocate map coordinates to get ready to unroll map at your location's latitude longitude"]
+      TMCU3-->TMCU4["Set user location, latitude and longitude.
+      <br>example:
+      <br>local_lat = 45.475871
+      <br>local_lon = -75.549315"]
+      TMCU4-->TMCU5["The original map has a reference point<br>that other points on the map have a bearing and distance to.<br>Example: (40.20595294149071, -75.77220799054444)"]
+      TMCU5-->TMCU6["The generated local map's reference point is <br>(local_lat, local_lon) set above"]
+      TMCU6-->TMCU7["For each point and each vertex in a polygon."]
+      TMCU7-->TMCU8["Use the function transition_point to:
+      <br>Get the point's distance and bearing from the original map reference point.
+      <br>using geod = Geodesic.WGS84.Inverse()
+      "]
+      TMCU8-->TMCU9["Calculate the point on the new map:
+      <br>Use the distance and bearing from the new map's origin point.
+      <br>new_map_point = VincentyDistance(meters=distance).destination(origin, bearing)
+      "]
+      TMCU9-->TMCU10["Save the new points and polygons in shapefiles"]
+      TMCU10-->TMCU11["Print the Python code to call the GenerateLeafletMap class<br>to create markers for each point as well as polygons."]
+      TMCU11-->TMCU12["Plot the shapefiles on a basemap to check if the map is plotter where the user would like."]
+      TMCU12-->TMCU13{"Is map in<br>desired location"}
+      TMCU13-->|No| TMCU13N["Reposition user location."]
+      TMCU13N-->TMCU4
+      TMCU13-->|Yes| TMCU13Y["Generate map using the next section."]
+      TMCU13Y-->GM1["In section 3. Generate the map to display at your location"] --> GM2["Copy and paste the Python code printed in the cell above.<br>This code calls the GenerateLeafletMap class<br>to create markers for each point as well as polygons."]
+      GM2-->TMCU11
+      GM2-->GM3["Run the cell to generate /sensation/userloc.html."]
+      GM3-->GM4["In section 4. Test generated map using http server on Google Colab
+      <br>Test the map.
+      <br>Start the http server.
+      <br>Click on the link."]
+      GM4-->GM5{"Is map<br>correct?"}
+      GM5-->|Yes|GM5Y["Place files on http server accessible to a smart phone.
+      <br>userloc.html - It must be accessible using https://
+      <br>Copy files in /icons and /sounds to website.
+      "]
+      GM5-->|No|GM5N["Correct errors, make improvements."]
+      GM5N-->GM1
+    </div>
+    <h3>Program logic</h3>
+    <div class="mermaid">
+      graph TD
+      PL1["In userloc.html Javascript."] --> PL2["Position all static markers<br>Use ? icon."]
+      PL2-->PL3["Position all polygons<br>fillOpacity: 0."]
+      PL3-->PL4["Position a draggable test marker with a computer icon."]
+      PL4-->PL5["Position a marker for the user's location. Update every 3 seconds."]
+      PL5-->PL6{"Is user's location<br>or test marker<br>within .1 km of a marker?"}
+      PL6-->|No|PL5
+      PL6-->|Yes|PL7["Reveal marker.
+      <br>Update popup text.
+      <br>Add a link to an audio file.
+      <br>Change icon."]
+      PL7-->PL8{"Is user's location<br>or test marker<br>within .1 km of a polygon?"}
+      PL8-->|No|PL5
+      PL8-->|Yes|PL9["Reveal polygon for landscape.
+      <br>Update popup text.
+      <br>Add a link to an audio file.
+      <br>fillOpacity: 0.7"]
+      PL9-->PL5
+    </div>
+  </body>
+</html>
