@@ -31,7 +31,5 @@ Notes on making: https://github.com/jeffblackadar/sensation/blob/main/notes_on_m
 
 ## Acknowledgements
 
-I have been working with this map as part of ongoing research with the [Computational Creativity and Archaeological Data](https://shawngraham.github.io/CCAD/) project, a sub-project of [CRANE](https://crane.utoronto.ca/)
+I have been working with this map as part of ongoing research with the [Computational Creativity and Archaeological Data](https://shawngraham.github.io/CCAD/) project, a sub-project of [CRANE](https://crane.utoronto.ca/). I would also like to acknowledge the support of the Social Sciences and Humanities Research Council of Canada. Thank you to Dr. Ben Carter and Weston Conner for sharing your knowledge of the history of this area of Pennsylvania and providing the map and shapefile.
 
-
-Credit to https://medium.com/@ashwindesilva/how-to-use-google-colaboratory-to-clone-a-github-repository-e07cf8d3d22b
