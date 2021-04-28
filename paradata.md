@@ -47,15 +47,9 @@
 		<li>Documented instructions</li>
 	</ol>
 	</li>
-</ol>
+	<li value="2"><b>What supporting evidence did you rely upon?</b> My main sources of information are the 1860 map and a dataset of locations of charcoal hearths in the area, provided by Dr. Ben Carter. Based on information from the United States National Parks Service, most or all of these charcoal hearths were likely present in 1860, but I don&rsquo;t have the age of each hearth. They are present to provide a sense of what the landscape was like.</p>
+</li>
 
-<p></p>
-
-<ol>
-	<li value="2">What supporting evidence did you rely upon?</li>
-</ol>
-
-<p style="margin-left:54.0pt;">My main sources of information are the 1860 map and a dataset of locations of charcoal hearths in the area, provided by Dr. Ben Carter. Based on information from the United States National Parks Service, most or all of these charcoal hearths were likely present in 1860, but I don&rsquo;t have the age of each hearth. They are present to provide a sense of what the landscape was like.</p>
 
 <ol style="list-style-type:lower-alpha;">
 	<li>The 1860 map of Pennsylvania &ndash; Provided by Dr. Ben Carter</li>
@@ -66,18 +60,11 @@
 		<li><a href="https://www.nps.gov/parkhistory/online_books/popular/14/ps14-1.htm">https://www.nps.gov/parkhistory/online_books/popular/14/ps14-1.htm</a></li>
 	</ol>
 	</li>
+	<li value="3">How have you acknowledged uncertainty in the resource? Where might alternative interpretations have been made or where are such interpretations otherwise available for viewing audiences to refer to? As a proof-of-concept I have made a guess at the types of landscape on the map, using topography and the location of features.&nbsp; The areas near building were likely pastures or gardens.&nbsp; The area containing charcoal hearths was likely forest, since trees were the raw material. I have added some sounds to provide a sense of some features, such as the furnace.&nbsp; These sounds are just representative and not factual.
+</li>
 </ol>
 
-<p></p>
-
-<ol>
-	<li value="3">How have you acknowledged uncertainty in the resource? Where might alternative interpretations have been made or where are such interpretations otherwise available for viewing audiences to refer to?</li>
-</ol>
-
-<p style="margin-left:72.0pt;">As a proof-of-concept I have made a guess at the types of landscape on the map, using topography and the location of features.&nbsp; The areas near building were likely pastures or gardens.&nbsp; The area containing charcoal hearths was likely forest, since trees were the raw material.</p>
-
-<p style="margin-left:72.0pt;">I have added some sounds to provide a sense of some features, such as the furnace.&nbsp; These sounds are just representative and not factual.</p>
-
+<p style="margin-left:72.0pt;">
 <ol style="list-style-type:lower-alpha;">
 	<li>For sounds, I added text to the player: &ldquo;Sounds are fictional representations&rdquo;.</li>
 	<li>For charcoal hearths, I added the text: &ldquo;The date of construction of this charcoal hearth is unknown. It is possible it was constructed later than 1860.&rdquo;</li>
