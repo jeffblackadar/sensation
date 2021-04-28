@@ -1,5 +1,5 @@
 # Sensation
-This is work for Heritage Jam 2021 and explores mapping work I have been doing as part of the CCAD-CRANE project.
+This is work for Heritage Jam 2021 and explores mapping work I have been doing as part of the [Computational Creativity and Archaeological Data](https://shawngraham.github.io/CCAD/) project, a sub-project of [CRANE](https://crane.utoronto.ca/).
 
 Here is a sample of the end result, an [interative walking map](https://jeffblackadar.ca/sensation/test_map.html).
 
