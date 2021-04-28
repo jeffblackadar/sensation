@@ -31,8 +31,7 @@ Notes on making: https://github.com/jeffblackadar/sensation/blob/main/notes_on_m
 
 ## Acknowledgements
 
-I have been working with this map as part of ongoing research with the Computational Creativity and Archaeological Data project, a sub-project of [CRANE]
-(https://crane.utoronto.ca/)
+I have been working with this map as part of ongoing research with the [Computational Creativity and Archaeological Data](https://shawngraham.github.io/CCAD/) project, a sub-project of [CRANE](https://crane.utoronto.ca/)
 
 
 Credit to https://medium.com/@ashwindesilva/how-to-use-google-colaboratory-to-clone-a-github-repository-e07cf8d3d22b
