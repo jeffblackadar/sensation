@@ -28,16 +28,12 @@ Micro Paradata:
   8.	Added custom icons and some sound files
   9.	Tested and refined the process.
   10.	Documented instructions
-
-2.	What supporting evidence did you rely upon?
-
-My main sources of information are the 1860 map and a dataset of locations of charcoal hearths in the area, provided by Dr. Ben Carter. Based on information from the United States National Parks Service, most or all of these charcoal hearths were likely present in 1860, but I don’t have the age of each hearth. They are present to provide a sense of what the landscape was like.
+2.	_What supporting evidence did you rely upon?_ My main sources of information are the 1860 map and a dataset of locations of charcoal hearths in the area, provided by Dr. Ben Carter. Based on information from the United States National Parks Service, most or all of these charcoal hearths were likely present in 1860, but I don’t have the age of each hearth. They are present to provide a sense of what the landscape was like.
   1. The 1860 map of Pennsylvania – Provided by Dr. Ben Carter
   2. A shapefile of relic charcoal hearths – Provided by Dr. Ben Carter and Weston Conner
   3. United Stated National Parks website for Hopewell Furnace
     1. https://www.nps.gov/hofu/index.htm
     2. https://www.nps.gov/parkhistory/online_books/popular/14/ps14-1.htm
-
 3.	How have you acknowledged uncertainty in the resource? Where might alternative interpretations have been made or where are such interpretations otherwise available for viewing audiences to refer to?
 
 As a proof-of-concept I have made a guess at the types of landscape on the map, using topography and the location of features.  The areas near building were likely pastures or gardens.  The area containing charcoal hearths was likely forest, since trees were the raw material.
