@@ -1,9 +1,10 @@
 Macro Paradata: 
 1.	Why has the resource being created and for what audience?
-a.	This virtual map is created for three audiences
-i.	Users who would like to discover landmarks of Hopewell Furnace by walking to a virtual placement of them.
-ii.	People who would like to create their own virtual maps.
-iii.	Users of Leaflet who may wish to adapt the techniques.
+   This virtual map is created for three audiences:
+      1. Users who would like to discover landmarks of Hopewell Furnace by walking to a virtual placement of them.
+      2. People who would like to create their own virtual maps.
+      3. Users of Leaflet who may wish to adapt the techniques.
+
 Although I am working with a specific map, this project could be applied to other maps. Archaeological sites, urban landscapes or even fictional places can be mapped and redrawn around a user’s present location.
 
 2.	How will the resource be put to use? Is it sustainable and accessible?
