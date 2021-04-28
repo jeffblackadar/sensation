@@ -1,8 +1,7 @@
 ## Macro Paradata: 
 
-1. **Why has the resource being created and for what audience?**  This virtual map is created for three audiences
-   1. Users who would like to discover landmarks of Hopewell Furnace by
-    walking to a virtual placement of them. 
+1. **Why has the resource being created and for what audience?**  This virtual map is created for three audiences:
+   1. Users who would like to discover landmarks of Hopewell Furnace by walking to a virtual placement of them. 
    2. People who would like to create their own virtual maps.
    3. Users of Leaflet who may wish to adapt the techniques.
 
@@ -24,7 +23,7 @@ Although I am working with a specific map, this project could be applied to othe
     4.	Created a shapefile of points, including metadata from a historical map.
     5.	Programmed a function to transfer the points from the historical map to the user’s location.
     6.	Programmed a function to read the shapefile of points and generate instructions to make the map.
-    7.	Repeated steps d-f for polygons to represent the landscape.
+    7.	Repeated steps 4-6 for polygons to represent the landscape.
     8.	Added custom icons and some sound files
     9.	Tested and refined the process.
     10.	Documented instructions for installation as well as:
@@ -33,9 +32,9 @@ Although I am working with a specific map, this project could be applied to othe
 
 2.	**What supporting evidence did you rely upon?**
 My main sources of information are the 1860 map and a dataset of locations of charcoal hearths in the area, provided by Dr. Ben Carter. Based on information from the United States National Parks Service, most or all of these charcoal hearths were likely present in 1860, but I don’t have the age of each hearth. They are shown to provide a sense of what the landscape was like.
-    1. The 1860 map of Pennsylvania – Provided by Dr. Ben Carter
-    2.	A shapefile of relic charcoal hearths – Provided by Dr. Ben Carter and Weston Conner
-    3.	United Stated National Parks website for Hopewell Furnace
+    1. The 1860 map of Pennsylvania – Provided by Dr. Ben Carter.
+    2.	A shapefile of relic charcoal hearths – Provided by Dr. Ben Carter and Weston Conner.
+    3.	United Stated National Parks website for Hopewell Furnace.
         1.	https://www.nps.gov/hofu/index.htm
         2.	https://www.nps.gov/parkhistory/online_books/popular/14/ps14-1.htm
 
