@@ -2,7 +2,7 @@
 This is work for Heritage Jam 2021 and explores mapping work I have been doing as part of the CCAD-CRANE project.
 
 Here is a sample of the end result, an interative walking map. See: https://jeffblackadar.ca/sensation/test_map.html.
-You can drag the ugly computer marker <img src="https://jeffblackadar.ca/sensation/icons/computer.png" alt="computer test icon""/> around the map to test the map, but walking it in your neighbourhood is more fun. See below to make your own!
+You can drag the ugly computer marker ![computer test icon](https://jeffblackadar.ca/sensation/icons/computer.png "computer test icon") around the map to test the map, but walking it in your neighbourhood is more fun. See below to make your own!
 
 ## Requirements
 This project will create an html page with a Leaflet map that is designed to run on a smartphone and plot the user's location.
