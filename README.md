@@ -1,4 +1,4 @@
-# sensation
+# Sensation
 This is work for Heritage Jam 2021 and explores mapping work I have been doing as part of the CCAD-CRANE project.
 
 Here is a sample of the end result, an interative walking map. See: https://jeffblackadar.ca/sensation/test_map.html.
@@ -14,7 +14,7 @@ To run the map on a phone you will need:
 * A web server with TLS to serve up the map webpage using https.
 * A smart phone
 
-## setup / installation
+## Setup / installation
 These instructions use Google Drive and Google Colaboratory
 
 1. In Google Drive - create a directory example: "github"
