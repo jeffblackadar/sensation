@@ -1,4 +1,4 @@
-<p>Macro Paradata:</p>
+# Macro Paradata:
 
 <ol>
 	<li>Why has the resource being created and for what audience?
@@ -9,16 +9,11 @@
 			<li>People who would like to create their own virtual maps.</li>
 			<li>Users of Leaflet who may wish to adapt the techniques.</li>
 		</ol>
+		<p style="margin-left:36.0pt;">Although I am working with a specific map, this project could be applied to other maps. Archaeological sites, urban landscapes or even fictional places can be mapped and redrawn around a user&rsquo;s present location.</p>
 		</li>
 	</ol>
 	</li>
-</ol>
 
-<p style="margin-left:36.0pt;">Although I am working with a specific map, this project could be applied to other maps. Archaeological sites, urban landscapes or even fictional places can be mapped and redrawn around a user&rsquo;s present location.</p>
-
-<p></p>
-
-<ol>
 	<li value="2">How will the resource be put to use? Is it sustainable and accessible?
 	<ol style="list-style-type:lower-alpha;">
 		<li>Maps can be created and used by people as a way to get outside and discover a historical landscape on foot during a time of travel restrictions.</li>
@@ -36,7 +31,7 @@
 
 <p></p>
 
-<p>Micro Paradata:</p>
+## Micro Paradata:
 
 <ol>
 	<li>What are the basic steps you followed in putting together the resource?
