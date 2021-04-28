@@ -5,7 +5,7 @@ Macro Paradata:
       2. People who would like to create their own virtual maps.
       3. Users of Leaflet who may wish to adapt the techniques.
 
-Although I am working with a specific map, this project could be applied to other maps. Archaeological sites, urban landscapes or even fictional places can be mapped and redrawn around a user’s present location.
+  Although I am working with a specific map, this project could be applied to other maps. Archaeological sites, urban landscapes or even fictional places can be mapped and redrawn around a user’s present location.
 
 2.	How will the resource be put to use? Is it sustainable and accessible?
   1.	Maps can be created and used by people as a way to get outside and discover a historical landscape on foot during a time of travel restrictions.
@@ -28,17 +28,19 @@ Micro Paradata:
   8.	Added custom icons and some sound files
   9.	Tested and refined the process.
   10.	Documented instructions
+
 2.	_What supporting evidence did you rely upon?_ My main sources of information are the 1860 map and a dataset of locations of charcoal hearths in the area, provided by Dr. Ben Carter. Based on information from the United States National Parks Service, most or all of these charcoal hearths were likely present in 1860, but I don’t have the age of each hearth. They are present to provide a sense of what the landscape was like.
   1. The 1860 map of Pennsylvania – Provided by Dr. Ben Carter
   2. A shapefile of relic charcoal hearths – Provided by Dr. Ben Carter and Weston Conner
   3. United Stated National Parks website for Hopewell Furnace
     1. https://www.nps.gov/hofu/index.htm
     2. https://www.nps.gov/parkhistory/online_books/popular/14/ps14-1.htm
+
 3.	How have you acknowledged uncertainty in the resource? Where might alternative interpretations have been made or where are such interpretations otherwise available for viewing audiences to refer to?
 
-As a proof-of-concept I have made a guess at the types of landscape on the map, using topography and the location of features.  The areas near building were likely pastures or gardens.  The area containing charcoal hearths was likely forest, since trees were the raw material.
+  As a proof-of-concept I have made a guess at the types of landscape on the map, using topography and the location of features.  The areas near building were likely pastures or gardens.  The area containing charcoal hearths was likely forest, since trees were the raw material.
 
-I have added some sounds to provide a sense of some features, such as the furnace.  These sounds are just representative and not factual.
+  I have added some sounds to provide a sense of some features, such as the furnace.  These sounds are just representative and not factual.
   1. For sounds, I added text to the player: “Sounds are fictional representations”.
   2. For charcoal hearths, I added the text: “The date of construction of this charcoal hearth is unknown. It is possible it was constructed later than 1860.”
   3. For landscape polygons: “Landscape types and descriptions are imagined based on the map.”
