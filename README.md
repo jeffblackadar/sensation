@@ -17,9 +17,9 @@ To run the map on a phone you will need:
 ## Setup / installation
 These instructions use Google Drive and Google Colaboratory
 
-1. In Google Drive - create a directory example: "github"
+1. In Google Drive - create a directory. For example name it "github".
 2. Open this notebook Google Colaboratory and follow the steps:  https://github.com/jeffblackadar/sensation/blob/main/installer.ipynb
-3. Go back into Google Drive, select /github/sensation/sensory_map_generator.ipynb and Open in Google Colab
+3. Go back into Google Drive, select /github/sensation/sensory_map_generator.ipynb and Open in Google Colab.
 
 ## Paradata
 [paradata document](https://github.com/jeffblackadar/sensation/blob/main/paradata.md)
