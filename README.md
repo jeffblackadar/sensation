@@ -1,7 +1,7 @@
 # Sensation
 This is work for Heritage Jam 2021 and explores mapping work I have been doing as part of the CCAD-CRANE project.
 
-Here is a sample of the end result, an interative walking map. See: https://jeffblackadar.ca/sensation/test_map.html.
+Here is a sample of the end result, an [interative walking map](https://jeffblackadar.ca/sensation/test_map.html).
 
 You can drag the ugly computer marker ![computer test icon](https://jeffblackadar.ca/sensation/icons/computer.png "computer test icon") around the map to test it. But walking the map in your neighbourhood is more fun. See below to make your own!
 
@@ -22,12 +22,12 @@ These instructions use Google Drive and Google Colaboratory
 3. Go back into Google Drive, select /github/sensation/sensory_map_generator.ipynb and Open in Google Colab
 
 ## Paradata
-
+[Notes on making](https://github.com/jeffblackadar/sensation/blob/main/paradata.md)
 
 ## Other documentation
-Process Flow: https://jeffblackadar.github.io/sensation/map_process_flow.html
+[Process Flow](https://jeffblackadar.github.io/sensation/map_process_flow.html)
 
-Notes on making: https://github.com/jeffblackadar/sensation/blob/main/notes_on_making.md
+[Notes on making](https://github.com/jeffblackadar/sensation/blob/main/notes_on_making.md)
 
 ## Acknowledgements
 
