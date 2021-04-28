@@ -22,7 +22,7 @@ These instructions use Google Drive and Google Colaboratory
 3. Go back into Google Drive, select /github/sensation/sensory_map_generator.ipynb and Open in Google Colab
 
 ## Paradata
-[Notes on making](https://github.com/jeffblackadar/sensation/blob/main/paradata.md)
+[paradata document](https://github.com/jeffblackadar/sensation/blob/main/paradata.md)
 
 ## Other documentation
 [Process Flow](https://jeffblackadar.github.io/sensation/map_process_flow.html)
