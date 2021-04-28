@@ -13,7 +13,6 @@
 		</li>
 	</ol>
 	</li>
-
 	<li value="2">How will the resource be put to use? Is it sustainable and accessible?
 	<ol style="list-style-type:lower-alpha;">
 		<li>Maps can be created and used by people as a way to get outside and discover a historical landscape on foot during a time of travel restrictions.</li>
